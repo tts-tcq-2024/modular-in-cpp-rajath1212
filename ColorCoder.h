@@ -1,3 +1,6 @@
+#ifndef COLORCODER_H
+#define COLORCODER_H
+
 #include "ColorPair.h"
 
 namespace TelCoColorCoder 
