@@ -12,7 +12,6 @@ namespace TelCoColorCoder
         MinorColor minorColor = (MinorColor)(zeroBasedPairNumber % MinorColorNos);
         return ColorPair(majorColor, minorColor);
     }
-
     int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major * MinorColorNos + minor + 1;
     }
